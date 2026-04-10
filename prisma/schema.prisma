@@ -1,0 +1,38 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Product {
+  id              String           @id @default(uuid())
+  name            String
+  category        String // e.g., "Electronics", "Grocery"
+  basePrice       Float // Our current selling price
+  costPrice       Float // How much it costs us to buy
+  inventory       Inventory?
+  competitorPrice CompetitorPrice?
+  createdAt       DateTime         @default(now())
+  updatedAt       DateTime         @updatedAt
+}
+
+model Inventory {
+  id               String  @id @default(uuid())
+  productId        String  @unique
+  product          Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+  stockLevel       Int // Current number of items in stock
+  reorderThreshold Int // When stock drops below this, we need to reorder
+  status           String  @default("IN_STOCK") // IN_STOCK, LOW_STOCK, OUT_OF_STOCK
+}
+
+model CompetitorPrice {
+  id              String   @id @default(uuid())
+  productId       String   @unique
+  product         Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  competitorName  String
+  competitorPrice Float // What our competitor is charging
+  lastCheckedAt   DateTime @default(now())
+}
