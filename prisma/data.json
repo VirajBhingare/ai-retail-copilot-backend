@@ -1,0 +1,122 @@
+[
+    {
+      "name": "MacBook Pro M3 14-inch",
+      "category": "Electronics",
+      "basePrice": 1599.00,
+      "costPrice": 1300.00,
+      "inventory": { "stockLevel": 4, "reorderThreshold": 10, "status": "LOW_STOCK" },
+      "competitorPrice": { "competitorName": "TechStore Mega", "competitorPrice": 1499.00 }
+    },
+    {
+      "name": "Sony WH-1000XM5 Headphones",
+      "category": "Electronics",
+      "basePrice": 348.00,
+      "costPrice": 250.00,
+      "inventory": { "stockLevel": 45, "reorderThreshold": 15, "status": "IN_STOCK" },
+      "competitorPrice": { "competitorName": "AudioMart", "competitorPrice": 398.00 }
+    },
+    {
+      "name": "iPhone 15 Pro Max 256GB",
+      "category": "Electronics",
+      "basePrice": 1199.00,
+      "costPrice": 950.00,
+      "inventory": { "stockLevel": 12, "reorderThreshold": 20, "status": "LOW_STOCK" },
+      "competitorPrice": { "competitorName": "CellWorld", "competitorPrice": 1150.00 }
+    },
+    {
+      "name": "Dell UltraSharp 27 4K Monitor",
+      "category": "Electronics",
+      "basePrice": 550.00,
+      "costPrice": 400.00,
+      "inventory": { "stockLevel": 30, "reorderThreshold": 10, "status": "IN_STOCK" },
+      "competitorPrice": { "competitorName": "PC Plaza", "competitorPrice": 530.00 }
+    },
+    {
+      "name": "Keychron K2 Mechanical Keyboard",
+      "category": "Electronics",
+      "basePrice": 79.99,
+      "costPrice": 45.00,
+      "inventory": { "stockLevel": 0, "reorderThreshold": 15, "status": "OUT_OF_STOCK" },
+      "competitorPrice": { "competitorName": "KeyboardKing", "competitorPrice": 85.00 }
+    },
+    {
+      "name": "Organic Avocados (Pack of 4)",
+      "category": "Grocery",
+      "basePrice": 5.99,
+      "costPrice": 3.50,
+      "inventory": { "stockLevel": 0, "reorderThreshold": 50, "status": "OUT_OF_STOCK" },
+      "competitorPrice": { "competitorName": "FreshFoods", "competitorPrice": 6.49 }
+    },
+    {
+      "name": "Whole Milk 1 Gallon",
+      "category": "Grocery",
+      "basePrice": 3.49,
+      "costPrice": 2.10,
+      "inventory": { "stockLevel": 150, "reorderThreshold": 40, "status": "IN_STOCK" },
+      "competitorPrice": { "competitorName": "SuperMart", "competitorPrice": 3.29 }
+    },
+    {
+      "name": "Artisan Sourdough Bread",
+      "category": "Grocery",
+      "basePrice": 6.50,
+      "costPrice": 2.00,
+      "inventory": { "stockLevel": 8, "reorderThreshold": 20, "status": "LOW_STOCK" },
+      "competitorPrice": { "competitorName": "Local Bakery", "competitorPrice": 7.00 }
+    },
+    {
+      "name": "Fuji Apples (1 lb)",
+      "category": "Grocery",
+      "basePrice": 1.99,
+      "costPrice": 0.80,
+      "inventory": { "stockLevel": 200, "reorderThreshold": 50, "status": "IN_STOCK" },
+      "competitorPrice": { "competitorName": "FreshFoods", "competitorPrice": 1.89 }
+    },
+    {
+      "name": "Barilla Spaghetti (16 oz)",
+      "category": "Grocery",
+      "basePrice": 2.29,
+      "costPrice": 1.10,
+      "inventory": { "stockLevel": 85, "reorderThreshold": 30, "status": "IN_STOCK" },
+      "competitorPrice": { "competitorName": "SuperMart", "competitorPrice": 2.50 }
+    },
+    {
+      "name": "Levi's 501 Original Fit Jeans",
+      "category": "Fashion",
+      "basePrice": 79.50,
+      "costPrice": 35.00,
+      "inventory": { "stockLevel": 60, "reorderThreshold": 25, "status": "IN_STOCK" },
+      "competitorPrice": { "competitorName": "Denim Hub", "competitorPrice": 69.99 }
+    },
+    {
+      "name": "Nike Air Force 1 '07",
+      "category": "Fashion",
+      "basePrice": 115.00,
+      "costPrice": 50.00,
+      "inventory": { "stockLevel": 5, "reorderThreshold": 15, "status": "LOW_STOCK" },
+      "competitorPrice": { "competitorName": "Shoe Palace", "competitorPrice": 110.00 }
+    },
+    {
+      "name": "Basic White Cotton T-Shirt",
+      "category": "Fashion",
+      "basePrice": 15.00,
+      "costPrice": 4.00,
+      "inventory": { "stockLevel": 300, "reorderThreshold": 100, "status": "IN_STOCK" },
+      "competitorPrice": { "competitorName": "TeeZone", "competitorPrice": 12.00 }
+    },
+    {
+      "name": "North Face Nuptse Winter Jacket",
+      "category": "Fashion",
+      "basePrice": 280.00,
+      "costPrice": 120.00,
+      "inventory": { "stockLevel": 0, "reorderThreshold": 10, "status": "OUT_OF_STOCK" },
+      "competitorPrice": { "competitorName": "Outdoor Gear", "competitorPrice": 280.00 }
+    },
+    {
+      "name": "Ray-Ban Classic Aviator Sunglasses",
+      "category": "Fashion",
+      "basePrice": 160.00,
+      "costPrice": 65.00,
+      "inventory": { "stockLevel": 22, "reorderThreshold": 10, "status": "IN_STOCK" },
+      "competitorPrice": { "competitorName": "SunSpecs", "competitorPrice": 150.00 }
+    }
+  ]

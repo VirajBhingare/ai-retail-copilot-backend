@@ -1,14 +1,11 @@
 import Anthropic from "@anthropic-ai/sdk";
-import dotenv from "dotenv";
-
-dotenv.config();
+import { config } from "../../config/env.js";
 
 // Initialize the Anthropic client using the API key from .env
 export const anthropic = new Anthropic({
-  apiKey: process.env.ANTHROPIC_API_KEY,
+  apiKey: config.anthropicApiKey,
 });
 
-// This is the "Tool" definition we give to Claude.
 // It explains exactly what the tool does and what inputs it requires.
 export const inventoryTool = {
   name: "check_inventory_and_pricing",
