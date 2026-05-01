@@ -39,3 +39,23 @@ export const updatePriceTool = {
     required: ["productId", "newPrice"],
   },
 };
+
+export const createPurchaseOrderTool = {
+  name: "create_purchase_order",
+  description:
+    "Creates a purchase order to restock a product when inventory is low or out of stock. Use this to replenish inventory.",
+  input_schema: {
+    type: "object" as const,
+    properties: {
+      productId: {
+        type: "string",
+        description: "The UUID of the product to restock",
+      },
+      quantity: {
+        type: "number",
+        description: "The number of units to order",
+      },
+    },
+    required: ["productId", "quantity"],
+  },
+};
