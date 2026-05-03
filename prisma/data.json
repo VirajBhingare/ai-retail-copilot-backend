@@ -1,122 +1,227 @@
 [
-    {
-      "name": "MacBook Pro M3 14-inch",
-      "category": "Electronics",
-      "basePrice": 1599.00,
-      "costPrice": 1300.00,
-      "inventory": { "stockLevel": 4, "reorderThreshold": 10, "status": "LOW_STOCK" },
-      "competitorPrice": { "competitorName": "TechStore Mega", "competitorPrice": 1499.00 }
+  {
+    "name": "Apple iPhone 15 (128GB)",
+    "category": "Electronics",
+    "basePrice": 72000.00,
+    "costPrice": 65000.00,
+    "inventory": {
+      "stockLevel": 20,
+      "reorderThreshold": 10,
+      "status": "IN_STOCK"
     },
-    {
-      "name": "Sony WH-1000XM5 Headphones",
-      "category": "Electronics",
-      "basePrice": 348.00,
-      "costPrice": 250.00,
-      "inventory": { "stockLevel": 45, "reorderThreshold": 15, "status": "IN_STOCK" },
-      "competitorPrice": { "competitorName": "AudioMart", "competitorPrice": 398.00 }
-    },
-    {
-      "name": "iPhone 15 Pro Max 256GB",
-      "category": "Electronics",
-      "basePrice": 1199.00,
-      "costPrice": 950.00,
-      "inventory": { "stockLevel": 12, "reorderThreshold": 20, "status": "LOW_STOCK" },
-      "competitorPrice": { "competitorName": "CellWorld", "competitorPrice": 1150.00 }
-    },
-    {
-      "name": "Dell UltraSharp 27 4K Monitor",
-      "category": "Electronics",
-      "basePrice": 550.00,
-      "costPrice": 400.00,
-      "inventory": { "stockLevel": 30, "reorderThreshold": 10, "status": "IN_STOCK" },
-      "competitorPrice": { "competitorName": "PC Plaza", "competitorPrice": 530.00 }
-    },
-    {
-      "name": "Keychron K2 Mechanical Keyboard",
-      "category": "Electronics",
-      "basePrice": 79.99,
-      "costPrice": 45.00,
-      "inventory": { "stockLevel": 0, "reorderThreshold": 15, "status": "OUT_OF_STOCK" },
-      "competitorPrice": { "competitorName": "KeyboardKing", "competitorPrice": 85.00 }
-    },
-    {
-      "name": "Organic Avocados (Pack of 4)",
-      "category": "Grocery",
-      "basePrice": 5.99,
-      "costPrice": 3.50,
-      "inventory": { "stockLevel": 0, "reorderThreshold": 50, "status": "OUT_OF_STOCK" },
-      "competitorPrice": { "competitorName": "FreshFoods", "competitorPrice": 6.49 }
-    },
-    {
-      "name": "Whole Milk 1 Gallon",
-      "category": "Grocery",
-      "basePrice": 3.49,
-      "costPrice": 2.10,
-      "inventory": { "stockLevel": 150, "reorderThreshold": 40, "status": "IN_STOCK" },
-      "competitorPrice": { "competitorName": "SuperMart", "competitorPrice": 3.29 }
-    },
-    {
-      "name": "Artisan Sourdough Bread",
-      "category": "Grocery",
-      "basePrice": 6.50,
-      "costPrice": 2.00,
-      "inventory": { "stockLevel": 8, "reorderThreshold": 20, "status": "LOW_STOCK" },
-      "competitorPrice": { "competitorName": "Local Bakery", "competitorPrice": 7.00 }
-    },
-    {
-      "name": "Fuji Apples (1 lb)",
-      "category": "Grocery",
-      "basePrice": 1.99,
-      "costPrice": 0.80,
-      "inventory": { "stockLevel": 200, "reorderThreshold": 50, "status": "IN_STOCK" },
-      "competitorPrice": { "competitorName": "FreshFoods", "competitorPrice": 1.89 }
-    },
-    {
-      "name": "Barilla Spaghetti (16 oz)",
-      "category": "Grocery",
-      "basePrice": 2.29,
-      "costPrice": 1.10,
-      "inventory": { "stockLevel": 85, "reorderThreshold": 30, "status": "IN_STOCK" },
-      "competitorPrice": { "competitorName": "SuperMart", "competitorPrice": 2.50 }
-    },
-    {
-      "name": "Levi's 501 Original Fit Jeans",
-      "category": "Fashion",
-      "basePrice": 79.50,
-      "costPrice": 35.00,
-      "inventory": { "stockLevel": 60, "reorderThreshold": 25, "status": "IN_STOCK" },
-      "competitorPrice": { "competitorName": "Denim Hub", "competitorPrice": 69.99 }
-    },
-    {
-      "name": "Nike Air Force 1 '07",
-      "category": "Fashion",
-      "basePrice": 115.00,
-      "costPrice": 50.00,
-      "inventory": { "stockLevel": 5, "reorderThreshold": 15, "status": "LOW_STOCK" },
-      "competitorPrice": { "competitorName": "Shoe Palace", "competitorPrice": 110.00 }
-    },
-    {
-      "name": "Basic White Cotton T-Shirt",
-      "category": "Fashion",
-      "basePrice": 15.00,
-      "costPrice": 4.00,
-      "inventory": { "stockLevel": 300, "reorderThreshold": 100, "status": "IN_STOCK" },
-      "competitorPrice": { "competitorName": "TeeZone", "competitorPrice": 12.00 }
-    },
-    {
-      "name": "North Face Nuptse Winter Jacket",
-      "category": "Fashion",
-      "basePrice": 280.00,
-      "costPrice": 120.00,
-      "inventory": { "stockLevel": 0, "reorderThreshold": 10, "status": "OUT_OF_STOCK" },
-      "competitorPrice": { "competitorName": "Outdoor Gear", "competitorPrice": 280.00 }
-    },
-    {
-      "name": "Ray-Ban Classic Aviator Sunglasses",
-      "category": "Fashion",
-      "basePrice": 160.00,
-      "costPrice": 65.00,
-      "inventory": { "stockLevel": 22, "reorderThreshold": 10, "status": "IN_STOCK" },
-      "competitorPrice": { "competitorName": "SunSpecs", "competitorPrice": 150.00 }
+    "competitorPrice": {
+      "competitorName": "Amazon India",
+      "competitorPrice": 71500.00
     }
-  ]
+  },
+  {
+    "name": "HP Pavilion 14 Laptop",
+    "category": "Electronics",
+    "basePrice": 65000.00,
+    "costPrice": 58000.00,
+    "inventory": {
+      "stockLevel": 5,
+      "reorderThreshold": 10,
+      "status": "LOW_STOCK"
+    },
+    "competitorPrice": {
+      "competitorName": "Flipkart",
+      "competitorPrice": 64500.00
+    }
+  },
+  {
+    "name": "Sony Bravia 55-inch 4K Smart TV",
+    "category": "Electronics",
+    "basePrice": 82000.00,
+    "costPrice": 70000.00,
+    "inventory": {
+      "stockLevel": 0,
+      "reorderThreshold": 5,
+      "status": "OUT_OF_STOCK"
+    },
+    "competitorPrice": {
+      "competitorName": "Reliance Digital",
+      "competitorPrice": 82000.00
+    }
+  },
+  {
+    "name": "boAt Airdopes 141 Bluetooth Earbuds",
+    "category": "Electronics",
+    "basePrice": 1299.00,
+    "costPrice": 800.00,
+    "inventory": {
+      "stockLevel": 100,
+      "reorderThreshold": 30,
+      "status": "IN_STOCK"
+    },
+    "competitorPrice": {
+      "competitorName": "Croma",
+      "competitorPrice": 1199.00
+    }
+  },
+  {
+    "name": "Noise Fit Halo Smartwatch",
+    "category": "Electronics",
+    "basePrice": 2499.00,
+    "costPrice": 1500.00,
+    "inventory": {
+      "stockLevel": 45,
+      "reorderThreshold": 20,
+      "status": "IN_STOCK"
+    },
+    "competitorPrice": {
+      "competitorName": "Amazon India",
+      "competitorPrice": 2499.00
+    }
+  },
+  {
+    "name": "Daawat Rozana Super Basmati Rice (5kg)",
+    "category": "Grocery",
+    "basePrice": 450.00,
+    "costPrice": 350.00,
+    "inventory": {
+      "stockLevel": 8,
+      "reorderThreshold": 20,
+      "status": "LOW_STOCK"
+    },
+    "competitorPrice": {
+      "competitorName": "JioMart",
+      "competitorPrice": 460.00
+    }
+  },
+  {
+    "name": "Fortune Sunlite Refined Sunflower Oil (1L)",
+    "category": "Grocery",
+    "basePrice": 145.00,
+    "costPrice": 120.00,
+    "inventory": {
+      "stockLevel": 200,
+      "reorderThreshold": 50,
+      "status": "IN_STOCK"
+    },
+    "competitorPrice": {
+      "competitorName": "Blinkit",
+      "competitorPrice": 142.00
+    }
+  },
+  {
+    "name": "Tata Tea Gold (500g)",
+    "category": "Grocery",
+    "basePrice": 290.00,
+    "costPrice": 230.00,
+    "inventory": {
+      "stockLevel": 0,
+      "reorderThreshold": 40,
+      "status": "OUT_OF_STOCK"
+    },
+    "competitorPrice": {
+      "competitorName": "BigBasket",
+      "competitorPrice": 290.00
+    }
+  },
+  {
+    "name": "Madhur Pure & Hygienic Sugar (1kg)",
+    "category": "Grocery",
+    "basePrice": 55.00,
+    "costPrice": 45.00,
+    "inventory": {
+      "stockLevel": 300,
+      "reorderThreshold": 100,
+      "status": "IN_STOCK"
+    },
+    "competitorPrice": {
+      "competitorName": "Zepto",
+      "competitorPrice": 54.00
+    }
+  },
+  {
+    "name": "Parle-G Original Gluco Biscuits (800g)",
+    "category": "Grocery",
+    "basePrice": 80.00,
+    "costPrice": 60.00,
+    "inventory": {
+      "stockLevel": 150,
+      "reorderThreshold": 50,
+      "status": "IN_STOCK"
+    },
+    "competitorPrice": {
+      "competitorName": "Instamart",
+      "competitorPrice": 80.00
+    }
+  },
+  {
+    "name": "Samsung 253L 3 Star Double Door Refrigerator",
+    "category": "Appliances",
+    "basePrice": 26500.00,
+    "costPrice": 22000.00,
+    "inventory": {
+      "stockLevel": 12,
+      "reorderThreshold": 15,
+      "status": "LOW_STOCK"
+    },
+    "competitorPrice": {
+      "competitorName": "Vijay Sales",
+      "competitorPrice": 26000.00
+    }
+  },
+  {
+    "name": "LG 7Kg Fully Automatic Top Load Washing Machine",
+    "category": "Appliances",
+    "basePrice": 18500.00,
+    "costPrice": 15500.00,
+    "inventory": {
+      "stockLevel": 3,
+      "reorderThreshold": 10,
+      "status": "LOW_STOCK"
+    },
+    "competitorPrice": {
+      "competitorName": "Amazon India",
+      "competitorPrice": 18500.00
+    }
+  },
+  {
+    "name": "Bajaj 17L Solo Microwave Oven",
+    "category": "Appliances",
+    "basePrice": 4500.00,
+    "costPrice": 3800.00,
+    "inventory": {
+      "stockLevel": 0,
+      "reorderThreshold": 8,
+      "status": "OUT_OF_STOCK"
+    },
+    "competitorPrice": {
+      "competitorName": "Flipkart",
+      "competitorPrice": 4400.00
+    }
+  },
+  {
+    "name": "Prestige Iris 750 Watt Mixer Grinder",
+    "category": "Appliances",
+    "basePrice": 3200.00,
+    "costPrice": 2400.00,
+    "inventory": {
+      "stockLevel": 25,
+      "reorderThreshold": 10,
+      "status": "IN_STOCK"
+    },
+    "competitorPrice": {
+      "competitorName": "Croma",
+      "competitorPrice": 3100.00
+    }
+  },
+  {
+    "name": "KENT Supreme RO Water Purifier",
+    "category": "Appliances",
+    "basePrice": 15500.00,
+    "costPrice": 12000.00,
+    "inventory": {
+      "stockLevel": 8,
+      "reorderThreshold": 10,
+      "status": "LOW_STOCK"
+    },
+    "competitorPrice": {
+      "competitorName": "Reliance Digital",
+      "competitorPrice": 15500.00
+    }
+  }
+]
