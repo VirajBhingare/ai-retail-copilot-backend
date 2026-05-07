@@ -49,7 +49,7 @@ export class AIService {
           if (toolCall.type !== "tool_use") continue;
           let toolResultData;
 
-          console.log(`[Agent Action] Executing Tool: ${toolCall.name}`);
+          // console.log(`[Agent Action] Executing Tool: ${toolCall.name}`);
 
           // ACTION 1: Read Inventory
           if (toolCall.name === "check_inventory_and_pricing") {
