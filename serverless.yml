@@ -11,6 +11,17 @@ provider:
     DATABASE_URL: ${env:DATABASE_URL}
     ANTHROPIC_API_KEY: ${env:ANTHROPIC_API_KEY}
 
+package:
+  patterns:
+    - "!src/**"
+    - "!tsconfig.json"
+    - "!.git/**"
+    - "!.github/**"
+    - "!node_modules/prisma/**"
+    - "!node_modules/@prisma/engines/**"
+    - "!node_modules/typescript/**"
+    - "!node_modules/@types/**"
+
 functions:
   api:
     handler: dist/server.handler
