@@ -1,0 +1,20 @@
+service: retail-copilot-backend
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: ap-south-1
+  httpApi:
+    cors: true
+  environment:
+    DATABASE_URL: ${env:DATABASE_URL}
+    ANTHROPIC_API_KEY: ${env:ANTHROPIC_API_KEY}
+
+functions:
+  api:
+    handler: dist/server.handler
+    events:
+      - httpApi:
+          path: "/{proxy+}"
+          method: "*"
